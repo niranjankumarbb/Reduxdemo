@@ -14,9 +14,9 @@ function Routers() {
            <Link to="/posts">Posts</Link> |
 
            <Routes>
-                <Route path='/' element={<Counter/>}  exact={true} />
-                <Route path='/users' element={<User/>}   />
-                <Route path='/posts' element={<Posts/>}   />
+              <Route path='/' element={<Counter/>}  exact={true} />
+              <Route path='/users' element={<User/>}   />
+              <Route path='/posts' element={<Posts/>}   />
            </Routes>  
           </BrowserRouter>
         </div>
